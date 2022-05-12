@@ -1,25 +1,66 @@
-.jumbotron {
-  padding-top: 5rem;
-  background-color: #ff5f5f;
+html, body{
+    height: 100%;
+    background-color: #e5e5e5;
 }
 
-#projects {
-  padding-top: 5rem;
-  background-color: #ff5f5f;
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FA784A;
 }
 
-#projects .col {
-  color: white;
+.login-form{
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    background-color: white;
 }
 
-#about {
-  padding-top: 5rem;
+.input-group-text {
+    border: 0;
+    background-color: #e5e5e5;
 }
 
-#contact {
-  padding-top: 5rem;
+.form-control {
+    background-color: #e5e5e5;
+    border: 0;
 }
 
-footer {
-  background-color: #ff4747;
+.card-text{
+    margin-top: 100px;
+    justify-content: center;
 }
+
+.login-button {
+    background-color: #FA784A;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: unset;
+    font-family: 'Poppins', sans-serif;
+    color: #FA784A;
+    font-weight: 400;
+}
+
+.login-button {
+    width: 100%;
+    color: white;
+}
+
+.card-body{
+    margin-top: 20%; 
+}
+
+.label-login {
+    color: grey;
+}
+
