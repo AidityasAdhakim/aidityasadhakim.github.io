@@ -1,0 +1,128 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.progress{
+    flex-grow:3;
+}
+#header img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+.selected-2 {
+    background-color: #3fb6b2;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 100%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+@media (max-width:414px) {
+    .about-container{
+        flex-direction: column;
+    }
+}
